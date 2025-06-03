@@ -1,0 +1,31 @@
+# Framework e ASGI server
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+
+# ORM e database (PostgreSQL asincrono)
+SQLAlchemy==1.4.46
+asyncpg==0.27.0
+
+# Migrations
+alembic==1.10.4
+
+# Validazione dati
+pydantic==1.10.7
+python-dotenv==1.0.0
+
+# Autenticazione JWT
+fastapi-jwt-auth==1.8.4
+python-jose==3.3.0
+
+# Hashing password
+passlib[bcrypt]==1.7.4
+
+# Generazione file Excel
+openpyxl==3.1.2
+
+# Per test
+pytest==7.3.1
+pytest-asyncio==0.20.2
+
+# Libreria per date/ora (ajust se necessario)
+python-dateutil==2.8.2

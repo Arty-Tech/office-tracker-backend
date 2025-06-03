@@ -6,8 +6,8 @@ services:
     restart: always
     environment:
       POSTGRES_DB: time_tracker_db
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: p0stgr3s
     volumes:
       - postgres-data:/var/lib/postgresql/data
     ports:
@@ -18,8 +18,8 @@ services:
     depends_on:
       - db
     environment:
-      DATABASE_URL: postgresql+asyncpg://user:password@db/time_tracker_db
-      SECRET_KEY: supersegreto
+      DATABASE_URL: postgresql+asyncpg://postgres:p0stgr3s@db/time_tracker_db
+      SECRET_KEY: whothebestiamthebestohyeah
     volumes:
       - .:/app
     ports:
