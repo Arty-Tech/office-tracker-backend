@@ -1,0 +1,80 @@
+# ----------------------------
+# Python
+# ----------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env/
+venv/
+ENV/
+env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+.coverage.*
+.cache
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ----------------------------
+# FastAPI / Uvicorn
+# ----------------------------
+# Config, logs e file temporanei
+*.log
+*.pid
+*.sock
+
+# ----------------------------
+# Alembic
+# ----------------------------
+# Directory di versioning (se vuoi escludere i file compilati)
+alembic/versions/*.pyc
+
+# ----------------------------
+# Ambiente locale / IDE
+# ----------------------------
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# File di configurazione locali (es. variabili d’ambiente)
+.env.local
+.env.*.local
+
+# Documentazione generata
+docs/_build/
+
+# File di configurazione
+.env

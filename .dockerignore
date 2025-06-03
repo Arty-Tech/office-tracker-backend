@@ -1,0 +1,45 @@
+# Evita di aggiungere il git history
+.git
+.gitignore
+
+# Virtual environment e file temporanei Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Dati locali, log, file di configurazione sensibili
+*.log
+*.env
+.env.*
+*.pid
+*.sock
+
+# Cartelle di build / distribuzione
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Cartelle di test e coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# Directory di Alembic (se gestisci le migrazioni internamente al container,
+# altrimenti includi solo i file necessari)
+alembic/versions/*.pyc
+
+# File e cartelle di editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sistemi operativi
+.DS_Store
+Thumbs.db
+desktop.ini
