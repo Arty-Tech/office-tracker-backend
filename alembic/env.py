@@ -40,6 +40,7 @@ from app.db.base import Base
 from app.models.user import User
 from app.models.workday_config import WorkDayConfig
 from app.models.punch import Punch
+from app.models.time_entry import TimeEntry  # <-- IMPORT CORRETTO
 # ... importa eventuali altri modelli che hai (TimeEntry, …)
 
 target_metadata = Base.metadata
