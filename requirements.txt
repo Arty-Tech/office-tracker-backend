@@ -5,12 +5,14 @@ uvicorn[standard]==0.22.0
 # ORM e database (PostgreSQL asincrono)
 SQLAlchemy==1.4.46
 asyncpg==0.27.0
+psycopg2-binary==2.9.7
 
 # Migrations
 alembic==1.10.4
 
 # Validazione dati
 pydantic==1.10.7
+email-validator==1.3.1
 python-dotenv==1.0.0
 
 # Autenticazione JWT (ultima versione disponibile)

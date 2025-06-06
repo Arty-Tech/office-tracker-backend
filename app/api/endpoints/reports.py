@@ -4,6 +4,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from datetime import datetime
 from app.api.deps import get_db, get_current_user
 from app import crud
+from app import schemas
 from app.utils.excel import create_monthly_report_excel
 
 router = APIRouter(tags=["reports"], prefix="/reports")

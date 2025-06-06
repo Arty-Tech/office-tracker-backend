@@ -23,6 +23,10 @@ class UserLogin(BaseModel):
     email: EmailStr
     password: str
 
+class UserUpdate(BaseModel):
+    email: Optional[EmailStr] = None
+    password: Optional[str] = None
+    nome: Optional[str] = None
 
 class Token(BaseModel):
     access_token: str

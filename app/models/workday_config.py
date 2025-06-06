@@ -3,7 +3,7 @@ from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.orm import relationship
 
 from app.db.base import Base
-
+import uuid
 
 class WorkDayConfig(Base):
     __tablename__ = "workday_configs"

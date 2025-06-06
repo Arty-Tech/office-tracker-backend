@@ -11,7 +11,7 @@ class DailyDetail(BaseModel):
     ore_extra: float
     note: str = ""
 
-
+ 
 class Summary(BaseModel):
     total_worked_days: int
     total_ore_ordinarie: float
